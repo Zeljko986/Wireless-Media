@@ -8787,11 +8787,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zeljko\\Documents\\Aplikacije\\Products\\Products.csproj",
+      "projectUniqueName": "C:\\Users\\Zeljko\\Documents\\Aplikacije\\WirelessMedia\\Products.csproj",
       "projectName": "Products",
-      "projectPath": "C:\\Users\\Zeljko\\Documents\\Aplikacije\\Products\\Products.csproj",
+      "projectPath": "C:\\Users\\Zeljko\\Documents\\Aplikacije\\WirelessMedia\\Products.csproj",
       "packagesPath": "C:\\Users\\Zeljko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zeljko\\Documents\\Aplikacije\\Products\\obj\\",
+      "outputPath": "C:\\Users\\Zeljko\\Documents\\Aplikacije\\WirelessMedia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

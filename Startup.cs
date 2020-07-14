@@ -26,7 +26,7 @@ namespace Products
         public void ConfigureServices(IServiceCollection services)
         {            
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
-            string ConnectionStrings = @"Server=YourServer;Database=ProductsDatabaseData;User ID=;Password=;Trusted_Connection=True; ConnectRetryCount = 0";
+            string ConnectionStrings = @"Server=DESKTOP-ICBGB16;Database=ProductsDatabaseData;User ID=;Password=;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<ProductsDbContext>(options => options.UseSqlServer(ConnectionStrings));
         }
 
