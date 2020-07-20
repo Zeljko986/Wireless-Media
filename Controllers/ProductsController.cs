@@ -120,7 +120,7 @@ namespace Products.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryProductId"] = new SelectList(_context.CategoryProducts, "CategoryProductId", "CategoryName", product.CategoryProduct.CategoryName);
+           // ViewData["CategoryProductId"] = new SelectList(_context.CategoryProducts, "CategoryProductId", "CategoryName", product.CategoryProduct.CategoryName);
             return View(product);
         }
 
@@ -172,7 +172,7 @@ namespace Products.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryProductId"] = new SelectList(_context.CategoryProducts, "CategoryProductId", "CategoryName", product.CategoryProduct.CategoryName);
+           // ViewData["CategoryProductId"] = new SelectList(_context.CategoryProducts, "CategoryProductId", "CategoryName", product.CategoryProduct.CategoryName);
             return View(product);
         }
 
