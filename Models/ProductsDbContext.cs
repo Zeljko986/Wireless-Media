@@ -12,6 +12,8 @@ namespace Products.Models
         {
 
         }
+
+        public bool MyProperty { get; set; }
         public DbSet<Product> Products { get; set; } 
         public DbSet<CategoryProduct> CategoryProducts { get; set; }
     }
