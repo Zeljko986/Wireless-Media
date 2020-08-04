@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Nancy.Json;
 using Newtonsoft.Json;
+using Products.Data;
 using Products.Models;
 
 namespace Products.Controllers

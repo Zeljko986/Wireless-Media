@@ -10,6 +10,7 @@ using Nancy.Json;
 using System.IO;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using Products.Data;
 
 namespace Products.Controllers
 {
