@@ -42,7 +42,7 @@ namespace Products.Controllers
 
         // Import json file in database
         [HttpPost]
-        public IActionResult Import(IFormFile file)
+        public IActionResult Import()
         {
             string contentRootPath = "wwwroot/json/CategoryProduct.json";
             var jsondata = System.IO.File.ReadAllText(contentRootPath);

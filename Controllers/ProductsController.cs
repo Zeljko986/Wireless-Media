@@ -40,12 +40,12 @@ namespace Products.Controllers
             string path = Path.Combine("wwwroot/json/");
             System.IO.File.WriteAllText(path + "Product.json", jsondata);
             TempData["msg"] = "Json file Generated! check this in your ~/wwwroot/json folder";            
-            return RedirectToAction("Index"); ;
+            return RedirectToAction("Index"); 
         }
 
         // Import json file in database
         [HttpPost]
-        public IActionResult ImportProducts(IFormFile file)
+        public IActionResult ImportProducts()
         {
             string contentRootPath = "wwwroot/json/Product.json";
             var jsondata = System.IO.File.ReadAllText(contentRootPath);

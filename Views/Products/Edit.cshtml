@@ -19,8 +19,8 @@
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>                
-                <textarea asp-for="Description" class="form-control" id="Description" name="Description" rows="5" cols="20"></textarea>
+                <label asp-for="Description" class="control-label"></label>
+                @Html.TextAreaFor(m => m.Description, new { @class = "form-control", @rows = 10 })
             </div>
             <div class="form-group">                
                 <label asp-for="CategoryProduct" class="control-label"></label>
